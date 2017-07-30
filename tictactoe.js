@@ -121,6 +121,11 @@ window.onload = function () {
 		if (solved ($(this))) {
 			$("#message").html ("Player " + PLAYER + " wins!");
 			$(".blank").removeClass ("blank");
+			return;
+		}
+		if ($(".blank").length == 0) {
+			$("#message").html ("It's a tie!");
+			return;
 		}
 		update_player ();
 	});
