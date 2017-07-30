@@ -1,2 +1,4 @@
 # js-tic-tac-toe
-cpp tic tac toe's younger, more graphical brother
+Simple tic-tac-toe game made with JavaScript and JQuery
+
+Custom fonts by Tyler Finck: https://github.com/theleagueof/ostrich-sans
